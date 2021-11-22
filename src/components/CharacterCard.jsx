@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-
+// ce component est un composant qui va nous permettre d'afficher les infos name et image plus statue
+// d'un personnage en particulier depuis la props character
 export const CharacterCard = ({ character }) => {
     return(
         <div className="mx-2">
