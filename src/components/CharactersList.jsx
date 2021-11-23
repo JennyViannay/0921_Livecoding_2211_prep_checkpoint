@@ -15,7 +15,7 @@ export const CharactersList = () => {
     // On utilise useEffect pour récupérer les données qui nous interressent depuis la methode getDataFromApi
     useEffect(() => {
         getDataFromApi(currentPage)
-    }, []);
+    }, [currentPage]);
 
     // On déclare notre fonction qui récupère les données qui nous interressent depuis l'API, en fonction de la page demandée
     const getDataFromApi = (numberPage) => {
